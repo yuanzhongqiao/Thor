@@ -1,37 +1,29 @@
 <a href="http://thor.angel-lm.com/"><p align="center"><img src="doc/logo.png" height="100"></p></a>
 
-**Thor** is an Open Source and printable robot arm with six degrees of freedom.
-Its configuration (yaw-roll-roll-yaw-roll-yaw) is the same used by most of the manipulator robots on the market.
-In its extended position, Thor is about 625mm high and can lift loads up to 750 grams.
-
-<p align="center"><img src="doc/main.jpg" height="300"></p>
-
-The project started in 2015 as a final degree project called “Design and implementation of an Open Source, 3D printed 6DOF robotic arm”. Since then, this project has continued to develop little by little.
-
-The main purpose of this project was to design a robot that could be used in universities and schools to teach robotics.With this in mind, the design had to be affordable and accessible. Releasing the source files and doing so under an open source licence was the best option: anyone could study any element of the robot in depth and, moreover, modify or adapt it to their needs.
-
-The cost of the whole materials is under 350€. Being so affordable, I think almost every school/university/maker could make good use of at least one!
-
-In terms of licenses, I wanted this project to be Open Source because I want anyone to have the opportunity to study, modify and improve it. 
-
-Thor has been developed using only open source tools: [FreeCAD](https://www.freecadweb.org/) for the 3D modeling, [KiCAD](https://www.kicad.org/) for the PCB design and [GBRL](https://github.com/gnea/grbl) as firmware for the control electronics. In this way, access to knowledge can be guaranteed to anyone, anywhere, without any economic cost. There is not a single reason for not hacking Thor!
-
-If you want to know more about this project, visit the [Thor Website](http://thor.angel-lm.com/), where you will find documentation, manuals and a forum to solve all your doubts.
-
-
-# Repository Index
-* [doc](https://github.com/AngelLM/Thor/tree/developer/doc) - Misc documentation files
-* [freecad-src](https://github.com/AngelLM/Thor/tree/developer/freecad-src) - FreeCAD source files of every piece of Thor
-* [step](https://github.com/AngelLM/Thor/tree/developer/step) - step files of every piece of Thor
-* [stl](https://github.com/AngelLM/Thor/tree/developer/stl) - stl files of every piece of Thor
-* [wiki](https://github.com/AngelLM/Thor/wiki/) - currently deprecated, for updated info visit the [project's website](http://thor.angel-lm.com/)
-  * [FAQ](https://github.com/AngelLM/Thor/wiki/FAQ) - Frequently Asked Questions
-  * [Component list & Where to buy](https://github.com/AngelLM/Thor/wiki/Component-list) - List of every component needed in this project and links to online shops where they can be bought.
-  * [ThorBuilders](https://github.com/AngelLM/Thor/wiki/List-of-Thor-Builders) - List of Thor builders
-
-
-# License
-
-<a href="https://creativecommons.org/licenses/by-sa/4.0/legalcode"><p align="center"><img src="doc/By-sa.png" height="50"></p></a>
-
-All files included in this repository are licensed under a [Creative Commons Attribution-ShareAlike 4.0 International License](https://creativecommons.org/licenses/by-sa/4.0/legalcode) 
+<div class="Box-sc-g0xbh4-0 bJMeLZ js-snippet-clipboard-copy-unpositioned" data-hpc="true"><article class="markdown-body entry-content container-lg" itemprop="text"><p dir="auto"><a href="http://thor.angel-lm.com/" rel="nofollow"></a></p><p align="center" dir="auto"><a target="_blank" rel="noopener noreferrer" href="/AngelLM/Thor/blob/main/doc/logo.png"><img src="/AngelLM/Thor/raw/main/doc/logo.png" height="100" style="max-width: 100%;"></a></p><p dir="auto"></p>
+<p dir="auto"><strong><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">Thor</font></font></strong><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">是一款开源且可打印的机器人手臂，具有六个自由度。其配置（偏航-滚动-滚动-偏航-滚动-偏航）与市场上大多数机械手机器人使用的配置相同。在展开位置时，Thor 高约 625 毫米，可提升重达 750 克的负载。</font></font></p>
+<p align="center" dir="auto"><a target="_blank" rel="noopener noreferrer" href="/AngelLM/Thor/blob/main/doc/main.jpg"><img src="/AngelLM/Thor/raw/main/doc/main.jpg" height="300" style="max-width: 100%;"></a></p>
+<p dir="auto"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">该项目始于 2015 年，作为最终学位项目，名为“开源 3D 打印 6DOF 机械臂的设计和实现”。此后，这个项目继续一点点发展。</font></font></p>
+<p dir="auto"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">该项目的主要目的是设计一种可在大学和学校教授机器人技术的机器人。考虑到这一点，设计必须价格实惠且易于使用。发布源文件并在开源许可下这样做是最好的选择：任何人都可以深入研究机器人的任何元素，此外，还可以根据自己的需要对其进行修改或调整。</font></font></p>
+<p dir="auto"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">整个材料的成本低于 350 欧元。由于价格如此实惠，我认为几乎每所学校/大学/制造商都可以充分利用至少一个！</font></font></p>
+<p dir="auto"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">在许可方面，我希望这个项目是开源的，因为我希望任何人都有机会学习、修改和改进它。</font></font></p>
+<p dir="auto"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">Thor 仅使用开源工具进行开发：用于</font><font style="vertical-align: inherit;">3D 建模的</font></font><a href="https://www.freecadweb.org/" rel="nofollow"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">FreeCAD</font></font></a><font style="vertical-align: inherit;"><font style="vertical-align: inherit;"> 、用于 PCB 设计的</font></font><a href="https://www.kicad.org/" rel="nofollow"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">KiCAD</font></font></a><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">以及作为控制电子设备固件的</font></font><a href="https://github.com/gnea/grbl"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">GBRL</font></font></a><font style="vertical-align: inherit;"><font style="vertical-align: inherit;"> 。通过这种方式，可以保证任何人、任何地方都能获得知识，而无需任何经济成本。没有任何理由不攻击雷神！</font></font></p>
+<p dir="auto"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">如果您想了解有关该项目的更多信息，请访问</font></font><a href="http://thor.angel-lm.com/" rel="nofollow"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">Thor 网站</font></font></a><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">，在这里您可以找到文档、手册和论坛来解决您的所有疑问。</font></font></p>
+<h1 tabindex="-1" dir="auto"><a id="user-content-repository-index" class="anchor" aria-hidden="true" tabindex="-1" href="#repository-index"><svg class="octicon octicon-link" viewBox="0 0 16 16" version="1.1" width="16" height="16" aria-hidden="true"><path d="m7.775 3.275 1.25-1.25a3.5 3.5 0 1 1 4.95 4.95l-2.5 2.5a3.5 3.5 0 0 1-4.95 0 .751.751 0 0 1 .018-1.042.751.751 0 0 1 1.042-.018 1.998 1.998 0 0 0 2.83 0l2.5-2.5a2.002 2.002 0 0 0-2.83-2.83l-1.25 1.25a.751.751 0 0 1-1.042-.018.751.751 0 0 1-.018-1.042Zm-4.69 9.64a1.998 1.998 0 0 0 2.83 0l1.25-1.25a.751.751 0 0 1 1.042.018.751.751 0 0 1 .018 1.042l-1.25 1.25a3.5 3.5 0 1 1-4.95-4.95l2.5-2.5a3.5 3.5 0 0 1 4.95 0 .751.751 0 0 1-.018 1.042.751.751 0 0 1-1.042.018 1.998 1.998 0 0 0-2.83 0l-2.5 2.5a1.998 1.998 0 0 0 0 2.83Z"></path></svg></a><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">存储库索引</font></font></h1>
+<ul dir="auto">
+<li><a href="https://github.com/AngelLM/Thor/tree/developer/doc"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">doc</font></font></a><font style="vertical-align: inherit;"><font style="vertical-align: inherit;"> - 其他文档文件</font></font></li>
+<li><a href="https://github.com/AngelLM/Thor/tree/developer/freecad-src"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">freecad-src</font></font></a><font style="vertical-align: inherit;"><font style="vertical-align: inherit;"> - 每个 Thor 的 FreeCAD 源文件</font></font></li>
+<li><a href="https://github.com/AngelLM/Thor/tree/developer/step"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">步骤</font></font></a><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">- 雷神每一个部分的步骤文件</font></font></li>
+<li><a href="https://github.com/AngelLM/Thor/tree/developer/stl"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">stl</font></font></a><font style="vertical-align: inherit;"><font style="vertical-align: inherit;"> - 雷神每部作品的 stl 文件</font></font></li>
+<li><a href="https://github.com/AngelLM/Thor/wiki/"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">wiki</font></font></a><font style="vertical-align: inherit;"><font style="vertical-align: inherit;"> - 目前已弃用，有关更新信息，请访问该</font></font><a href="http://thor.angel-lm.com/" rel="nofollow"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">项目的网站</font></font></a>
+<ul dir="auto">
+<li><a href="https://github.com/AngelLM/Thor/wiki/FAQ"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">常见问题</font></font></a><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">- 常见问题</font></font></li>
+<li><a href="https://github.com/AngelLM/Thor/wiki/Component-list"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">组件列表和购买地点</font></font></a><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">- 该项目所需的每个组件的列表以及可以购买这些组件的在线商店的链接。</font></font></li>
+<li><a href="https://github.com/AngelLM/Thor/wiki/List-of-Thor-Builders"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">ThorBuilders</font></font></a><font style="vertical-align: inherit;"><font style="vertical-align: inherit;"> - 雷神建造者列表</font></font></li>
+</ul>
+</li>
+</ul>
+<h1 tabindex="-1" dir="auto"><a id="user-content-license" class="anchor" aria-hidden="true" tabindex="-1" href="#license"><svg class="octicon octicon-link" viewBox="0 0 16 16" version="1.1" width="16" height="16" aria-hidden="true"><path d="m7.775 3.275 1.25-1.25a3.5 3.5 0 1 1 4.95 4.95l-2.5 2.5a3.5 3.5 0 0 1-4.95 0 .751.751 0 0 1 .018-1.042.751.751 0 0 1 1.042-.018 1.998 1.998 0 0 0 2.83 0l2.5-2.5a2.002 2.002 0 0 0-2.83-2.83l-1.25 1.25a.751.751 0 0 1-1.042-.018.751.751 0 0 1-.018-1.042Zm-4.69 9.64a1.998 1.998 0 0 0 2.83 0l1.25-1.25a.751.751 0 0 1 1.042.018.751.751 0 0 1 .018 1.042l-1.25 1.25a3.5 3.5 0 1 1-4.95-4.95l2.5-2.5a3.5 3.5 0 0 1 4.95 0 .751.751 0 0 1-.018 1.042.751.751 0 0 1-1.042.018 1.998 1.998 0 0 0-2.83 0l-2.5 2.5a1.998 1.998 0 0 0 0 2.83Z"></path></svg></a><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">执照</font></font></h1>
+<p dir="auto"><a href="https://creativecommons.org/licenses/by-sa/4.0/legalcode" rel="nofollow"></a></p><p align="center" dir="auto"><a target="_blank" rel="noopener noreferrer" href="/AngelLM/Thor/blob/main/doc/By-sa.png"><img src="/AngelLM/Thor/raw/main/doc/By-sa.png" height="50" style="max-width: 100%;"></a></p><p dir="auto"></p>
+<p dir="auto"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">此存储库中包含的所有文件均根据</font></font><a href="https://creativecommons.org/licenses/by-sa/4.0/legalcode" rel="nofollow"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">Creative Commons Attribution-ShareAlike 4.0 International License获得许可</font></font></a></p>
+</article></div>
